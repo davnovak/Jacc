@@ -1,0 +1,15 @@
+Package: Jacc
+Title: Matching groups of data points based on results of two clusterings
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "David",
+           family = "Novak",
+           role = c("aut", "cre"),
+           email = "davidnovakcz@hotmail.com")
+Description: Compares two vectors of cluster assignments per data point (or a vector of ground-truth labels and a clustering vector), matching groups across vectors while maximising the value of an evaluation metric: F1, precision or recall.
+License: MIT + file LICENSE
+Imports: clue, pheatmap, RColorBrewer, cowplot, grid, stats
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
